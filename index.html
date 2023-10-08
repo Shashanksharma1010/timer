@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>
+            Timer
+        </title>
+        <link rel="stylesheet" href="style.css"> 
+        <script defer src="index.js"></script> 
+    </head>
+
+    <body>
+        <div id="message">This is me the faulty text</div>
+         <div class="main">
+            <div id="input-col">
+                <input type="number" name="hours"  value="0" min="0" max="24" required>
+                <input type="number" name="minutes"  value="0" min="0" max="60" required>
+                <input type="number" name="seconds"  value="0" min="0" max="60" required>
+            </div>
+
+            <div id="label-col">
+                <label>Hours</label>
+                <label>Minutes</label>
+                <label>Seconds</label>
+            </div>
+
+            <div id="btn-col">
+                <button id="start-btn">Start</button>
+                <button id="stop-btn">Stop</button>
+                <button id="reset-btn">Reset</button>
+            </div>
+
+         </div>
+    </body>
+</html>

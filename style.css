@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+* {
+    padding: 0px;
+    margin:0px;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.no-spinners {
+    -moz-appearance: textfield;
+ }
+ 
+ .no-spinners::-webkit-outer-spin-button,
+ .no-spinners::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+ }
+
+#message {
+    display:none;
+    background-color: black;
+    color:#fff;
+    text-align: center;
+    font-size: 24px;
+    padding:10px;
+}
+
+body {
+    background: rgb(235, 179, 75) url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_YdqgkUGdrYekdhXb0f1yRol7kxAuXEKh8qLc1i_qK1xgGAQxcx8whpaEsaqD1u-N0AR-O80uVgNgVweKQGbwed1aMmebEwHXPPCxEoktsUbTVgWeaLOgD1ikgjuKygvdCZ2lgBcfxTfUXHI0I9a11uXzp8HeCUGmfKxKyHzhCoMda4buYXNk360dgA/s1920/02052022-no-birds-v2-MINIMALIST-LANDSCAPE.png') no-repeat center fixed;
+    background-size: cover;
+}
+/* aligning logic start */
+
+/* main container flexbox */
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top:50px;
+}
+
+
+/* input, label and button column flex containers */
+#input-col, #btn-col, #label-col {
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+    gap:15px;
+}
+
+/* input and label styling */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input, label {
+    width: 80px;
+    padding:10px;
+    /* aligning logic end */
+
+    /* styling */
+    border:none;
+    border-radius: 5px;
+    outline:none;
+    text-align: center;
+}
+
+input {
+    font-size: 40px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bolder;
+    color:black;
+    background-color:blanchedalmond
+}
+
+/* buttons styling */
+button {
+    padding:15px;
+    font-size: 25px;
+
+    /* styling */
+    border:none;
+    cursor:pointer; 
+    border-radius:5px;
+    color:black;
+}
+
+#start-btn:hover {
+    background-color:rgb(224,134,115);
+    color:white
+}
+
+#stop-btn:hover{
+    background-color: rgb(129,85,104);
+    color:white;
+}
+
+#reset-btn:hover {
+    background-color:rgb(50,49,71);
+    color:white;
+}
+
+
+
