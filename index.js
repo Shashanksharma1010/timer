@@ -116,7 +116,7 @@ function clk() {
     // Checking if timer is complete 
     if (inputs[0].value == 0 && inputs[1].value == 0 && inputs[2].value == 0) {
         clearInterval(myId);
-        let beat = new Audio('tornado-sirens.mp3');
+        let beat = new Audio('beep-02.mp3');
         beat.play();
         myMessage("Your Timer is Complete");
     } 
